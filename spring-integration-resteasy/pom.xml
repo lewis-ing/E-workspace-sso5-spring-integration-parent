@@ -15,7 +15,6 @@
 	<properties>
 		<swagger-version>1.5.8</swagger-version>
 	    <swagger-ui-version>2.1.4</swagger-ui-version>
-	    <resteasy.version>3.0.16.Final</resteasy.version>
 	    <servlet.version>3.0-alpha-1</servlet.version>
 	    <jboss-jaxrs-api_2.0_spec.version>1.0.0.Final</jboss-jaxrs-api_2.0_spec.version>
 	    <logback-core.version>1.1.5</logback-core.version>
@@ -122,7 +121,6 @@
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-spring</artifactId>
-			<version>${resteasy.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.spec.javax.ws.rs</groupId>

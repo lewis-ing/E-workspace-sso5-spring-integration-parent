@@ -1,3 +1,10 @@
 /spring-integration-resteasy/*.classpath
 /spring-integration-resteasy/target
 /spring-integration-resteasy/.settings
+/spring-boot-resteasy-parent/spring-boot-resteasy/.apt_generated
+/spring-boot-resteasy-parent/spring-boot-resteasy/.settings
+/spring-boot-resteasy-parent/spring-boot-resteasy/target
+/spring-boot-resteasy-parent/spring-boot-resteasy/.factorypath
+/spring-boot-resteasy-parent/spring-boot-sample-resteasy/target
+/spring-boot-resteasy-parent/spring-boot-sample-resteasy/.classpath
+/spring-boot-resteasy-parent/spring-boot-sample-resteasy/.settings

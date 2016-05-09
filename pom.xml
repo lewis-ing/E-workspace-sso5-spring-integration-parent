@@ -9,6 +9,7 @@
 
 	<properties>
 		<spring.io.version>2.0.3.RELEASE</spring.io.version>
+		<resteasy.version>3.0.16.Final</resteasy.version>
 		<!-- charset settting -->
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -35,6 +36,16 @@
 	            <type>pom</type>
 	            <scope>import</scope>
 	        </dependency>
+	        <dependency>
+				<groupId>org.jboss.resteasy</groupId>
+				<artifactId>resteasy-spring</artifactId>
+				<version>${resteasy.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.ecmcloud</groupId>
+				<artifactId>spring-boot-resteasy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	
@@ -67,5 +78,6 @@
 	</repositories>
 	<modules>
 		<module>spring-integration-resteasy</module>
+		<module>spring-boot-resteasy-parent</module>
 	</modules>
 </project>
