@@ -1,0 +1,3 @@
+/spring-integration-resteasy/*.classpath
+/spring-integration-resteasy/target
+/spring-integration-resteasy/.settings
