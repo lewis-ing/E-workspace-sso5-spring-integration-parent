@@ -11,3 +11,6 @@
 /spring-boot-jooq-parent/spring-boot-sample-jooq/.settings
 /spring-boot-jooq-parent/spring-boot-sample-jooq/target
 /spring-boot-jooq-parent/spring-boot-sample-jooq/.classpath
+/spring-boot-web-parent/spring-boot-web-freemarker/.classpath
+/spring-boot-web-parent/spring-boot-web-freemarker/.settings
+/spring-boot-web-parent/spring-boot-web-freemarker/target
