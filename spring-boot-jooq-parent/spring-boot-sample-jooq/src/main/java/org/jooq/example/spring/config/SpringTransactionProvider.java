@@ -7,7 +7,6 @@ import org.jooq.TransactionProvider;
 import org.jooq.tools.JooqLogger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
@@ -15,7 +14,6 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
  * An example <code>TransactionProvider</code> implementing the {@link TransactionProvider} contract for use with
  * Spring.
  */
-@Component
 public class SpringTransactionProvider implements TransactionProvider {
 
 	private static final JooqLogger log = JooqLogger.getLogger(SpringTransactionProvider.class);
@@ -35,7 +33,6 @@ public class SpringTransactionProvider implements TransactionProvider {
 	@Override
 	public void commit(TransactionContext ctx) {
 		log.info("commit transaction");
-
 		txMgr.commit(((SpringTransaction) ctx.transaction()).tx);
 	}
 

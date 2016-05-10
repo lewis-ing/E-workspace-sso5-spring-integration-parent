@@ -53,11 +53,10 @@ public class JooqSpringBootConfiguration {
     @Bean
     public org.jooq.Configuration jooqConfig(ConnectionProvider connectionProvider,
                                              TransactionProvider transactionProvider, ExecuteListenerProvider executeListenerProvider) {
-
         return new DefaultConfiguration() //
                 .derive(connectionProvider) //
                 .derive(transactionProvider) //
                 .derive(executeListenerProvider) //
-                .derive(SQLDialect.H2);
+                .derive(SQLDialect.H2);//setting db driver
     }
 }

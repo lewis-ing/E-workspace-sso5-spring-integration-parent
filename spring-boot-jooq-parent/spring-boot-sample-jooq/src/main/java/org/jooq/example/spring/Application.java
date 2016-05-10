@@ -18,7 +18,7 @@ public class Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... arg0) throws Exception {
-		bookService.create(10, 1, "spring");
+		bookService.create(12, 1, "spring");
 	}
 
 }

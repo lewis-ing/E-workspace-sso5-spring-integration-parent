@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class DefaultBookService implements BookService {
+public class DefaultBookService implements BookService{
 
 	@Autowired DSLContext dsl;
 
