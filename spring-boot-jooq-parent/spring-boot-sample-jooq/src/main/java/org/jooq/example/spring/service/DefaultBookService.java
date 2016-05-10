@@ -21,6 +21,9 @@ public class DefaultBookService implements BookService {
 //		for (int i = 0; i < 2; i++)
 //			dsl.insertInto(BOOK).set(BOOK.ID, id).set(BOOK.AUTHOR_ID, authorId).set(BOOK.TITLE, title).execute();
 		
+		/**
+		 * single test insert book
+		 */
 		dsl.insertInto(BOOK).set(BOOK.ID, id).set(BOOK.AUTHOR_ID, authorId).set(BOOK.TITLE, title).execute();
 	}
 }
