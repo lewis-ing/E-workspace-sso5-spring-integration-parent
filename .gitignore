@@ -8,3 +8,6 @@
 /spring-boot-resteasy-parent/spring-boot-sample-resteasy/target
 /spring-boot-resteasy-parent/spring-boot-sample-resteasy/.classpath
 /spring-boot-resteasy-parent/spring-boot-sample-resteasy/.settings
+/spring-boot-jooq-parent/spring-boot-sample-jooq/.settings
+/spring-boot-jooq-parent/spring-boot-sample-jooq/target
+/spring-boot-jooq-parent/spring-boot-sample-jooq/.classpath

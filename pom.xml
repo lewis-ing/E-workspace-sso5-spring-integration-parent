@@ -8,7 +8,7 @@
 	<name>spring-integration-parent</name>
 
 	<properties>
-		<spring.io.version>2.0.3.RELEASE</spring.io.version>
+		<spring.io.version>2.0.4.RELEASE</spring.io.version>
 		<resteasy.version>3.0.16.Final</resteasy.version>
 		<!-- charset settting -->
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -79,5 +79,6 @@
 	<modules>
 		<module>spring-integration-resteasy</module>
 		<module>spring-boot-resteasy-parent</module>
+		<module>spring-boot-jooq-parent</module>
 	</modules>
 </project>
